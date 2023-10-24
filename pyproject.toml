@@ -5,7 +5,12 @@ description = ""
 authors = [
     {name = "doxg", email = "praze74@gmail.com"},
 ]
-dependencies = []
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.23.2",
+    "eleven-pp>=1.2.1",
+    "dj-weather-show>=2.0.0",
+]
 requires-python = ">=3.8"
 readme = "README.md"
 license = {text = "MIT"}
