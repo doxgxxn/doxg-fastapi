@@ -32,8 +32,8 @@ API
 Docker
 
     http://localhost:9040/docs
-    $ docker build -t dj-api:0.4.0 .
-    $ docker run -dit --name dj-api040 -p 9040:80 dj-api:0.4.0
+    $ docker build -t doxg-api:0.4.0 .
+    $ docker run -dit --name doxg-api040 -p 9040:80 doxg-api:0.4.0
 
 Deploy fly.io
     
