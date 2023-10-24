@@ -3,6 +3,7 @@
 preparation
 
     https://pdm.fming.dev/latest/#installation
+    
     $ source .venv/bin/activate
     $ pdm add fastapi
     $ pdm add "uvicorn[standard]"
