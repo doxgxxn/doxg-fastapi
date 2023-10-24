@@ -12,9 +12,9 @@ preparation
 RUN SERVER
 
     http://localhost:8000
-    $ uvicorn app.main:app --reload
+    $ uvicorn app.main:app --reload                 ### --reload 옵션: 코드 변경 감지, 개발 시 자동 재시작
     INFO:     Will watch for changes in these directories: ['/home/doxg/code/doxg-api']
-    INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+    INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)          
     INFO:     Started reloader process [20346] using WatchFiles
     INFO:     Started server process [20348]
     INFO:     Waiting for application startup.
