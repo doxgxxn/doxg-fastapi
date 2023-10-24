@@ -1,0 +1,15 @@
+[project]
+name = "doxg-api"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "doxg", email = "praze74@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
