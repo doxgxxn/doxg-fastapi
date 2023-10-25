@@ -1,4 +1,4 @@
-from typing import Union
+from typing import Union 
 from fastapi import FastAPI
 from dj_weather_show.weather_show import get_weather
 
