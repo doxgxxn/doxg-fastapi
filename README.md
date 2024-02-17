@@ -6,7 +6,7 @@ preparation
     
     $ source .venv/bin/activate
     $ pdm add fastapi
-    $ pdm add "uvicorn[standard]"
+    $ pdm add "uvicorn[standard]" 
     $ pdm add -dG test pytest pytest-cov 
   
 RUN SERVER
